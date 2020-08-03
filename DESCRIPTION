@@ -1,0 +1,23 @@
+Package: DXLSS
+Type: Package
+Title: Tools for performing dx-lss tasks
+Version: 0.1.0
+Author: Ahn Deukho
+Maintainer: Ahn Deukho <hogi76@gmail.net>
+Description: 6sigma toolbox optimized for changes in the dx environment
+             - 1.Preliminary step: data structure verification, pre-processing, data set separation
+             - 2.regular step : Process capability analysis, Optimal model verification and confirmation
+             - 3.post step : Control chart for post management 
+             
+License: What license is it under? MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: 
+    qcc,
+    SixSigma,
+    randomForest
+    
+URL: https://github.com/hogi76/DXLSS1 
+BugReports : https://github.com/hogi76/DXLSS1/issues
+    
